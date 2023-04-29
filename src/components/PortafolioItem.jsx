@@ -5,6 +5,7 @@ export const PortafolioItem = ({ title, imgUrl, stack, link }) => {
         <div className=" border-2 border-stone-900
         rounded-md overflow-hidden">
             <img
+                
                 src={imgUrl}
                 alt="portafolio"
                 className="w-full h-36 md:h-48 object-cover cursor-pointer"
