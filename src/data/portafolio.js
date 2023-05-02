@@ -1,10 +1,12 @@
+
+
 export default[
     {
         title: 'Hero App',
         imgUrl: '../assets/Hero-App.jpg',
         stack: ['HTML', 'CSS', 'Javascript'],
         link:'https://1hero-app.netlify.app',
-
+       
     },
 
     {
@@ -13,7 +15,7 @@ export default[
         stack: ['HTML', 'CSS', 'Javascript'],
         imgUrl: '',
         link:'https://1cripto-cotizador.netlify.app',
-
+       
     },
 
     {
@@ -21,6 +23,8 @@ export default[
         imgUrl: '../assets/Control-gastos.jpg',
         stack: ['HTML', 'CSS', 'Javascript'],
         link:'https://1control-de-gastos.netlify.app',
+       
+
 
     },
     {
@@ -28,14 +32,21 @@ export default[
         imgUrl: '../assets/Vet.jpg',
         stack: ['HTML', 'CSS', 'Javascript'],
         link:'https://1seguimiento-de-pacientes-veterinaria.netlify.app',
-
+       
     },
     {
         title: 'Gifs App',
         imgUrl: '../assets/Gif-App.jpg',
         stack: ['HTML', 'CSS', 'Javascript'],
         link:'https://1gifsapp.netlify.app',
-
+       
+    },
+    {
+        title: 'Cripto-Page',
+        imgUrl: '../assets/Crypto.jpg',
+        stack: ['HTML', 'CSS', 'Javascript'],
+        link:'https://1gifsapp.netlify.app',
+       
     },
     
     

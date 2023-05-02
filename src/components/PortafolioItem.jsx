@@ -1,6 +1,6 @@
 
 
-export const PortafolioItem = ({ title, imgUrl, stack, link }) => {
+export const PortafolioItem = ({ title, imgUrl, stack, link, }) => {
     return (
         <div className=" border-2 border-stone-900
         rounded-md overflow-hidden">
