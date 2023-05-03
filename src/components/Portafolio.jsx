@@ -1,5 +1,6 @@
 import portafolio from "../data/portafolio"
 import { PortafolioItem } from "./PortafolioItem"
+import { v4 as uuidv4 } from 'uuid';
 
 
 
@@ -10,7 +11,7 @@ export const Portafolio = () => {
     {portafolio.map(project =>(
       
       <PortafolioItem
-    
+      key={uuidv4()} // Agrega la clave única aquí
       imgUrl={project.imgUrl}
       title={project.title}
       stack={project.stack}
