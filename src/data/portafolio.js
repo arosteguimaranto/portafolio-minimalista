@@ -8,16 +8,7 @@ export default[
         link:'https://1hero-app.netlify.app',
        
     },
-
-    {
-        title: 'Cotizador Crypto',
-        imgUrl: '../assets/Crypto.jpg',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        imgUrl: '',
-        link:'https://1cripto-cotizador.netlify.app',
-       
-    },
-
+    
     {
         title: 'Control de Gastos',
         imgUrl: '../assets/Control-gastos.jpg',
