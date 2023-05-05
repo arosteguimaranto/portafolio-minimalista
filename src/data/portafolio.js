@@ -15,8 +15,6 @@ export default[
         stack: ['HTML', 'CSS', 'Javascript'],
         link:'https://1control-de-gastos.netlify.app',
        
-
-
     },
     {
         title: 'Seguimiento de Pacientes ',
@@ -41,7 +39,7 @@ export default[
     },
     {
         title: 'Portafolio Minimalista',
-        imgUrl: '',
+        imgUrl: '../assets/portafolio-minimalista.jpg',
         stack: ['React', 'Tailwind', 'Vite'],
         link:'',
        

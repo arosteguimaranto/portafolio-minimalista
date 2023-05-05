@@ -84,10 +84,11 @@ function App() {
       font-inter '>
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
-          <Redes/>
+          
           <Portafolio /> 
           <Timeline />
           <Contact />
+          <Redes/>
           <Footer />
         </div>
 
