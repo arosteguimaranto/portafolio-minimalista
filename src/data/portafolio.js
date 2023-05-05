@@ -33,7 +33,7 @@ export default[
        
     },
     {
-        title: 'Cripto-Page',
+        title: 'Cripto Page',
         imgUrl: '../assets/Crypto.jpg',
         stack: ['HTML', 'CSS', 'Javascript'],
         link:'https://1gifsapp.netlify.app',

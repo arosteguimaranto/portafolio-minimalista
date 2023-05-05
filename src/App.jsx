@@ -6,6 +6,7 @@ import { Intro } from './components/Intro'
 import { Portafolio } from './components/Portafolio'
 import { Timeline } from './components/Timeline'
 import './index.css'
+import { Redes } from './components/Redes'
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -83,6 +84,7 @@ function App() {
       font-inter '>
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
+          <Redes/>
           <Timeline />
           <Portafolio />
           <Contact />
