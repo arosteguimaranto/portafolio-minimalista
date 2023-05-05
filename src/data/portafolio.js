@@ -39,6 +39,13 @@ export default[
         link:'https://1gifsapp.netlify.app',
        
     },
+    {
+        title: 'Portafolio Minimalista',
+        imgUrl: '',
+        stack: ['React', 'Tailwind', 'Vite'],
+        link:'',
+       
+    },
     
     
 

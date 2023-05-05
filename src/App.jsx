@@ -85,8 +85,8 @@ function App() {
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
           <Redes/>
+          <Portafolio /> 
           <Timeline />
-          <Portafolio />
           <Contact />
           <Footer />
         </div>
