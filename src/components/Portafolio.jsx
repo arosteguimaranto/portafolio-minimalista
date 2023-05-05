@@ -42,18 +42,20 @@ export const Portafolio = () => {
       <div className="flex flex-col md:flex-row items-center p-4 justify-center">
 
 
-        <Slider {...settings} className="w-full border border-white">
+        <Slider {...settings} className="w-full border dark:border-stone-900 border-white">
           {portafolio.map((project) => (
             <>
-              <div className="flex justify-center py-4" ></div>
+              <div className="flex justify-center py-4 " >
               <PortafolioItem
-                key={uuidv4()}
-                imgUrl={project.imgUrl}
-                title={project.title}
-                stack={project.stack}
-                link={project.link}
+              key={uuidv4()}
+              imgUrl={project.imgUrl}
+              title={project.title}
+              stack={project.stack}
+              link={project.link}
 
-              />
+            />
+              </div>
+             
             </>
 
           ))}

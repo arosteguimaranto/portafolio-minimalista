@@ -1,50 +1,59 @@
 
 
-export default[
+export default [
+    {
+
+        title: 'Journal App',
+        imgUrl: '../assets/journal.jpg',
+        stack: ['Vite', 'React', 'MaterialUI'],
+        link: '',
+    },
+
     {
         title: 'Hero App',
         imgUrl: '../assets/Hero-App.jpg',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        link:'https://1hero-app.netlify.app',
-       
+        stack: ['Vite', 'React', 'Tailwind'],
+        link: 'https://1hero-app.netlify.app',
+
     },
-    
+
     {
         title: 'Control de Gastos',
         imgUrl: '../assets/Control-gastos.jpg',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        link:'https://1control-de-gastos.netlify.app',
-       
+        stack: ['Vite', 'React', 'Tailwind'],
+        link: 'https://1control-de-gastos.netlify.app',
+
     },
     {
         title: 'Seguimiento de Pacientes ',
         imgUrl: '../assets/Vet.jpg',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        link:'https://1seguimiento-de-pacientes-veterinaria.netlify.app',
-       
+        stack: ['Vite', 'React',],
+        link: 'https://1seguimiento-de-pacientes-veterinaria.netlify.app',
+
     },
     {
         title: 'Gifs App',
         imgUrl: '../assets/Gif-App.jpg',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        link:'https://1gifsapp.netlify.app',
-       
+        stack: ['Vite', 'React',],
+        link: 'https://1gifsapp.netlify.app',
+
     },
     {
-        title: 'Cripto Page',
+        title: 'Cotizador de Criptomonedas',
         imgUrl: '../assets/Crypto.jpg',
-        stack: ['HTML', 'CSS', 'Javascript'],
-        link:'https://1gifsapp.netlify.app',
-       
+        stack: ['Vite', 'Tailwind',],
+        link: 'https://1gifsapp.netlify.app',
+
     },
     {
         title: 'Portafolio Minimalista',
         imgUrl: '../assets/portafolio-minimalista.jpg',
         stack: ['React', 'Tailwind', 'Vite'],
-        link:'',
-       
+        link: '',
+
     },
-    
-    
+
+
+
 
 ]
