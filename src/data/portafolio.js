@@ -42,7 +42,7 @@ export default [
         title: 'Cotizador de Criptomonedas',
         imgUrl: '../assets/Crypto.jpg',
         stack: ['Vite', 'Tailwind',],
-        link: 'https://1gifsapp.netlify.app',
+        link: '',
 
     },
     {

@@ -15,6 +15,7 @@ export const Portafolio = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+   
 
     responsive: [
       {
