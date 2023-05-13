@@ -9,12 +9,13 @@ export const Contact = () => {
         <form action='https://getform.io/f/0252185f-0dc8-4d49-adfd-261e95979db0'
           method='POST'
           className='flex flex-col w-full md:w-7/12'>
-
-          <Title>Contact</Title>
+          <h1 className='text-sm max-w-xl mb-6 font-bold ' >Si está buscando un desarrollador front-end dedicado y motivado, no dude en ponerse en contacto conmigo. <br/> Estoy ansioso por poner mis habilidades y pasión en acción para ayudar a su empresa a alcanzar sus objetivos en línea.</h1>
+          <br/>
+          <Title>Trabajemos juntos</Title>
           <input
             type=' text'
             name='name'
-            placeholder=' Name'
+            placeholder=' Nombre'
             className='p-2 bg-transparent
             border-2 rounded-md
             focus:outline-none'
@@ -22,7 +23,7 @@ export const Contact = () => {
           <input
             type=' text'
             name='email'
-            placeholder=' Email'
+            placeholder=' correo@correo.com'
             className='my-2 p-2 bg-transparent
           border-2 rounded-md
           focus:outline-none'
@@ -30,7 +31,7 @@ export const Contact = () => {
 
           <textarea
             name='message'
-            placeholder=' Message'
+            placeholder=' Ingresa tu mensaje'
             rows='10'
             className='p-2 mb-4 bg-transparent
             border-2 rounded-md
