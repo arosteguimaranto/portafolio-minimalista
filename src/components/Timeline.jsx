@@ -24,7 +24,7 @@ export const Timeline = () => {
         ))}
 
         <button
-          type='button'
+          type="submit"
           className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-gray-800 drop-shadow-md hover:stroke-white'
           download
           href="/Portafolio-Minimalista/public/cv-Arostegui-Maranto.pdf"
