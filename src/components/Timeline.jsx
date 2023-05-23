@@ -7,6 +7,8 @@ import { Title } from "./Title";
 
 export const Timeline = () => {
 
+
+
   return (
     <div className=' flex flex-col md:flex-row justify-center my-20 '>
       <div className=" w-full md:w-7/12">
@@ -23,14 +25,14 @@ export const Timeline = () => {
           />
         ))}
 
-        <button
-          type="submit"
+        <a
+          
           className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-gray-800 drop-shadow-md hover:stroke-white'
-          href="/Portafolio-Minimalista/public/cv-Arostegui-Maranto.pdf"
-          download='catalogo.pdf'
+          href="/public/cv-Arostegui-Maranto.pdf"
+          download='cv-Arostegui-Maranto.pdf'
           >
           Descargar Curriculum
-        </button>
+        </a>
       </div>
     </div>
 
