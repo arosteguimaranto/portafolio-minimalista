@@ -9,7 +9,7 @@ export const Intro = () => {
     <br/>
     Además, tengo experiencia con Git y Github e implementacion de testing con Jest.
     </p>
-    <h3 className="text-sm max-w-xl mb-6 font-bold">  Comprometido con el aprendizaje continuo para mejorar y expandir mis habilidades.</h3>
+    <h3 className="text-sm max-w-xl mb-6 font-bold">  Comprometido con el aprendizaje continuo para mejorar y expandir mis habilidades y conocimientos.</h3>
     
     </div>
   )
