@@ -5,7 +5,7 @@ export default [
 
         title: 'Journal App',
         imgUrl: '../assets/journal.jpg',
-        stack: ['Vite', 'React', 'MaterialUI'],
+        stack: ['Vite', 'React', 'Firestone', 'MaterialUI'],
         link: 'https://j0urnalapp.netlify.app',
     },
 
