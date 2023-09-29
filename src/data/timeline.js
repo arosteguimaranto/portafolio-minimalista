@@ -1,6 +1,7 @@
 export default[
+    
     {
-        year: '2022',
+        year: '2021',
         title: 'Primer "Hello World"',
         duration: 'El Inicio',
         details:'Escribí mi primera línea de código real'

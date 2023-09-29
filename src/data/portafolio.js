@@ -8,6 +8,20 @@ export default [
         stack: ['Vite', 'React', 'Firebase', 'MaterialUI'],
         link: 'https://j0urnalapp.netlify.app',
     },
+    {
+        title: 'Netflix Clone',
+        imgUrl: '../assets/netflix-clone.jpg',
+        stack: ['Next 13.4', 'React', 'Stripe', 'Supabase', 'PostgreSQL', 'Tailwind (2023)'],
+        link: 'https://netflix-clone-rclh1ew5p-arosteguimarantos-projects.vercel.app/auth',
+
+    },
+    {
+        title: 'Portafolio Minimalista',
+        imgUrl: '../assets/portafolio-minimalista.jpg',
+        stack: ['React', 'Tailwind', 'Vite'],
+        link: '',
+
+    },
 
     {
         title: 'Hero App',
@@ -45,13 +59,7 @@ export default [
         link: '',
 
     },
-    {
-        title: 'Portafolio Minimalista',
-        imgUrl: '../assets/portafolio-minimalista.jpg',
-        stack: ['React', 'Tailwind', 'Vite'],
-        link: '',
-
-    },
+  
 
 
 
