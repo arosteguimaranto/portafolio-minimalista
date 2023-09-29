@@ -43,10 +43,10 @@ export const Portafolio = () => {
       <div className="flex flex-col md:flex-row items-center p-4 justify-center">
 
 
-        <Slider {...settings} className="w-full border dark:border-stone-900 border-white">
+        <Slider {...settings} className="w-full  dark:border-stone-900 border-white">
           {portafolio.map((project) => (
             <>
-              <div className="flex justify-center py-4 " >
+              <div className="flex justify-center py-4 transform hover:scale-110 motion-reduce:transform-none " >
               <PortafolioItem
               key={uuidv4()}
               imgUrl={project.imgUrl}

@@ -2,7 +2,7 @@ import timeline from "../data/timeline"
 import { TimelineItem } from "./TimelineItem"
 import { v4 as uuidv4 } from 'uuid';
 import { Title } from "./Title";
-import cvAros from '/public/ArosCV-E4.pdf'
+import cvAros from '/src/ArosCV-E4.pdf'
 
 
 
