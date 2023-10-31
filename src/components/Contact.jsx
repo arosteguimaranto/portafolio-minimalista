@@ -40,9 +40,7 @@ export const Contact = () => {
           <button
             type='submit'
             className='text-center inline-block
-          px-8 py-3 w-max text-base font-medium rounded-md text-white
-          bg-gradient-to-r from-green-600
-          to-gray-800 drop-shadow-md
+          px-8 py-3 w-max text-base font-medium rounded-md text-white bg-slate-950 dark:bg-slate-50 dark:text-black
           hover:stroke-white'
           >
             Work With Me
