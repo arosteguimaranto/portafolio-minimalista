@@ -3,14 +3,16 @@ import { Title } from "./Title"
 
 export const Contact = () => {
   return (
-    <div className='flex flex-col mb-10 mt-9 mx-auto'>
-      <div className=' flex justify-center items-center'
+    <div className='flex flex-col mb-10 max-w-3xl mt-9 mx-auto'>
+    <h1 className='text-xl max-w-3xl mb-6 font-bold ' >Si está buscando un desarrollador front-end dedicado y motivado, no dude en ponerse en contacto conmigo. 
+    <br/> Estoy ansioso por poner mis habilidades y pasión en acción para ayudar a su empresa a alcanzar sus objetivos en línea.</h1>
+    <br/>
+      <div className=' flex  justify-center items-center'
       >
         <form action='https://getform.io/f/0252185f-0dc8-4d49-adfd-261e95979db0'
           method='POST'
           className='flex flex-col w-full md:w-7/12'>
-          <h1 className='text-sm max-w-xl mb-6 font-bold ' >Si está buscando un desarrollador front-end dedicado y motivado, no dude en ponerse en contacto conmigo. <br/> Estoy ansioso por poner mis habilidades y pasión en acción para ayudar a su empresa a alcanzar sus objetivos en línea.</h1>
-          <br/>
+         
           <Title>Trabajemos juntos</Title>
           <input
             type=' text'
