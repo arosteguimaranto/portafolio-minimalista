@@ -3,18 +3,26 @@
 export default [
     {
 
+        title: 'Spotify Clone',
+        imgUrl: '../assets/Captura.jpg',
+        stack: ['Next 13.4, React, Stripe, Supabase, PostgreSQL, Tailwind'],
+        link: 'https://spotify-clone-ashen-kappa.vercel.app',
+    },
+    {
+        title: 'Netflix Clone',
+        imgUrl: '../assets/netflix-clone.jpg',
+        stack: ['Next 13.4', 'React', 'Stripe', 'Supabase', 'PostgreSQL', 'Tailwind'],
+        link: 'https://netflix-clone-rclh1ew5p-arosteguimarantos-projects.vercel.app/auth',
+
+    },
+    {
+
         title: 'Journal App',
         imgUrl: '../assets/journal.jpg',
         stack: ['Vite', 'React', 'Firebase', 'MaterialUI'],
         link: 'https://j0urnalapp.netlify.app',
     },
-    {
-        title: 'Netflix Clone',
-        imgUrl: '../assets/netflix-clone.jpg',
-        stack: ['Next 13.4', 'React', 'Stripe', 'Supabase', 'PostgreSQL', 'Tailwind (2023)'],
-        link: 'https://netflix-clone-rclh1ew5p-arosteguimarantos-projects.vercel.app/auth',
-
-    },
+    
     {
         title: 'Portafolio Minimalista',
         imgUrl: '../assets/portafolio-minimalista.jpg',
