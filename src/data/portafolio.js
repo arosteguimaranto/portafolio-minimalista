@@ -5,7 +5,7 @@ export default [
 
         title: 'Spotify Clone',
         imgUrl: '../assets/Captura.jpg',
-        stack: ['Next 13.4, React, Stripe, Supabase, PostgreSQL, Tailwind'],
+        stack: ['Next 13.4', 'React', 'Stripe', 'Supabase', 'PostgreSQL', 'Tailwind'],
         link: 'https://spotify-clone-ashen-kappa.vercel.app',
     },
     {
