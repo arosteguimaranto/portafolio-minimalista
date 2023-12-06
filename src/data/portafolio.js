@@ -17,7 +17,7 @@ export default [
     },
     {
         title: 'Netflix Clone',
-        imgUrl: '../assets/netflix-clone.jpg',
+        imgUrl: '../assets/netflixClone.png',
         stack: ['Next 13.4', 'React', 'Stripe', 'Supabase', 'PostgreSQL', 'Tailwind'],
         link: 'https://netflix-clone-rclh1ew5p-arosteguimarantos-projects.vercel.app/auth',
 
