@@ -3,6 +3,13 @@
 export default [
     {
 
+        title: 'Travel App Landing Page',
+        imgUrl: '../assets/travelApp.png',
+        stack: [' React.js', 'Next.js 13', 'Tailwind CSS'],
+        link: 'https://travel-app-lyart.vercel.app/',
+    },
+    {
+
         title: 'Spotify Clone',
         imgUrl: '../assets/Captura.jpg',
         stack: ['Next 13.4', 'React', 'Stripe', 'Supabase', 'PostgreSQL', 'Tailwind'],

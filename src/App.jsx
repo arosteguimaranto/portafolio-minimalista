@@ -13,9 +13,9 @@ function App() {
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark');
-    } else {
       setTheme('light');
+    } else {
+      setTheme('dark');
     }
   }, []);
 
