@@ -3,8 +3,8 @@
 export const Intro = () => {
   return (
     <div className='flex items-center justify-center flex-col  pt-20 pb-6'>
-    <h1 className='text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold'> Arostegui Maranto</h1>
-    <p className='text-base md:text-xl mb-3 font-medium'> Desarrollador Front-end </p>
+    <h1 className='text-4xl text-center md:text-7xl dark:text-white mb-1 md:mb-3 font-bold'> Arostegui Maranto</h1>
+    <p className='text-sm md:text-xl mb-3 font-medium'> Desarrollador Front-end </p>
     <br/>
     <div>
     <p className=' text-base max-w-3xl mb-6 font-bold'>  Me apasiona crear experiencias web atractivas y funcionales. 
