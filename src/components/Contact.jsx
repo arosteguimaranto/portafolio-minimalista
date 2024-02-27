@@ -4,7 +4,7 @@ import { Title } from "./Title"
 export const Contact = () => {
   return (
     <div className='flex flex-col mb-10 max-w-3xl mt-9 mx-auto'>
-    <h1 className='text-xl max-w-3xl mb-6 font-bold ' >Si está buscando un desarrollador front-end dedicado y motivado, no dude en ponerse en contacto conmigo. 
+    <h1 className=' font-mono text-lg max-w-3xl mb-6' >Si está buscando un desarrollador web dedicado y motivado, no dude en ponerse en contacto conmigo. 
     <br/> Estoy ansioso por poner mis habilidades y pasión en acción para ayudar a su empresa a alcanzar sus objetivos en línea.</h1>
     <br/>
       <div className=' flex  justify-center items-center'
