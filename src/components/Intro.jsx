@@ -11,19 +11,14 @@ export const Intro = () => {
     </p>
 
     </div>
-    <div class=" text-center w-full">
+    <div class="  justify-between  text-center w-full">
     
-    <ul class=" flex flex-wrap justify-center p-0 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tighter font-mono hover:text-yellow-300  border rounded">
-      <li class="mx-5 flex-none">Html </li>
-      <li class="mx-5 flex-none">Css</li>
-      <li class="mx-5 flex-none">Javascript</li>
-      <li class="mx-5 flex-none">React</li>
-      <li class="mx-5 flex-none"> Node Js</li>
-      <li class="mx-5 flex-none">Testing </li>
-      <li className="mx-5 flex-none">Next Js</li>
-      <li class="mx-5 flex-none">SQL </li>
-      <li className="mx-5 flex-none">Tailwind</li>
-      <li class="mx-5 flex-none ">GitHub </li>
+    <ul class=" h-8 flex flex-wrap p-0 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tighter font-mono hover:text-yellow-300  border rounded">
+      <li  class="mx-5 flex-none">Inicio </li>
+      <li class="mx-5 flex-none">Proyectos</li>
+      <li class="mx-5 flex-none">Contacto</li>
+      <li class="mx-5 flex-none">Redes Sociales</li>
+      
     </ul>
   </div>
 
@@ -42,10 +37,21 @@ export const Intro = () => {
     </div>
 
 
-    <div class="bg-stone p-8 rounded-lg shadow-lg flex items-center">
-    <div class="w-2/3 ml-4">
-        <h2 class="tracking-tighter text-xl text-left font-bold mb-2">Tecnologias que manejo </h2>
-         
+    <div class=" w-full bg-stone p-8 m-0 rounded-lg shadow-lg flex items-center">
+    <div class=" w-full ">
+        <h2 class="tracking-tighter text-xl text-left font-bold mb-2">Tecnologias</h2>
+        <ul class=" h-10 flex flex-wrap justify-center p-0 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tighter font-mono hover:text-yellow-300  border rounded">
+        <li class="mx-5 flex-none">Html </li>
+        <li class="mx-5 flex-none">Css</li>
+        <li class="mx-5 flex-none">Javascript</li>
+        <li class="mx-5 flex-none">React</li>
+        <li class="mx-5 flex-none"> Node Js</li>
+        <li class="mx-5 flex-none">Testing </li>
+        <li className="mx-5 flex-none">Next Js</li>
+        <li class="mx-5 flex-none">SQL </li>
+        <li className="mx-5 flex-none">Tailwind</li>  
+        <li class="mx-5 flex-none ">GitHub </li>
+      </ul>
     </div>
 </div>
 
