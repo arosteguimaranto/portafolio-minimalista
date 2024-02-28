@@ -11,10 +11,10 @@ export const Timeline = () => {
 
 
   return (
-    <div className=' max-w-3xl flex flex-col md:flex-row justify-center my-20 '>
-      <div className=" w-full md:w-7/12">
+    <div className='bg-stone p-8 rounded-lg  shadow-lg flex items-center '>
+      <div className=" text-mono md:w-7/12 w-2/3  ml-4">
 
-        <Title>Timeline</Title>
+        <Title >Cursos Y Certificaciones</Title>
 
         {timeline.map(item => (
           <TimelineItem
