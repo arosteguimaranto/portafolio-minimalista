@@ -3,54 +3,43 @@
 export const Intro = () => {
   return (
     <div className='flex items-center justify-center flex-col  pt-20 pb-6'>
-   
     <h2 className='text-4xl text-center md:text-7xl dark:text-white mb-1 md:mb-3 tracking-tighter animate-pulse font-bold'> Arostegui Maranto</h2>
-    <p className=' tracking-tight md:text-xl mb-3  font-mono '> <strong> Desarrollador Web </strong> </p>
-    <div>
-    <p className=' text-lg text-center max-w-1xl mb-6 font-mono'> 
-    </p>
-
-    </div>
-    <div class="  justify-between  text-center w-full">
+    <br/>
+    <p className=' tracking-tight md:text-3xl mb-3  font-mono'> <strong> Desarrollador Web </strong> </p>
     
-    <ul class=" h-8 flex flex-wrap p-0 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tighter font-mono hover:text-yellow-300  border rounded">
-      <li  class="mx-5 flex-none">Inicio </li>
-      <li class="mx-5 flex-none">Proyectos</li>
-      <li class="mx-5 flex-none">Contacto</li>
-      <li class="mx-5 flex-none">Redes Sociales</li>
-      
+    {/*<div class="justify-center w-full">
+    <ul class="h-8  items-center flex flex-wrap p-0 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tighter font-mono hover:text-yellow-300 border rounded">
+        <li class="mx-5">Inicio</li>
+        <li class="mx-5">Proyectos</li>
+        <li class="mx-5">Contacto</li>
+        <li class="mx-5">Redes Sociales</li>
     </ul>
-  </div>
+</div>
+  */}
 
   <div class=" bg-stone p-8 rounded-lg  shadow-lg flex items-center">
-        
         <div class="w-1/3">
-            <img  src="../../public/assets/dylan.png" alt="Imagen" class="w-full h-auto   origin-top-left rotate-12 "/>
+            <img  src="/assets/dylan.png" alt="Imagen" class="w-full h-auto   origin-top-left rotate-12 "/>
         </div>
-       
-        <div class="w-2/3 ml-4">
-           
-            <h2 class=" tracking-tighter text-xl font-bold mb-2">¿Quien soy?</h2>
-            
-            <p class=" tracking-tighter font-mono dark:text-white"><strong>Hola,</strong> soy Dylan, un aprendiz autodidacta apasionado por desarrollo web y  la tecnologia, con habilidades prácticas cultivadas en proyectos y cursos en línea.</p>
+        <div class="w-2/3  ml-4">
+            <h2 class=" tracking-tighter text-2xl font-bold mb-2">¿Quien soy?</h2>    
+            <p class=" tracking-tighter text-lg font-mono dark:text-white"><strong>Hola,</strong> soy Dylan, un aprendiz autodidacta apasionado por desarrollo web y  la tecnologia, con habilidades prácticas cultivadas en proyectos y cursos en línea.</p>
         </div>
     </div>
-
-
-    <div class=" w-full bg-stone p-8 m-0 rounded-lg shadow-lg flex items-center">
-    <div class=" w-full ">
-        <h2 class="tracking-tighter text-xl text-left font-bold mb-2">Tecnologias</h2>
-        <ul class=" h-10 flex flex-wrap justify-center p-0 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tighter font-mono hover:text-yellow-300  border rounded">
-        <li class="mx-5 flex-none">Html </li>
-        <li class="mx-5 flex-none">Css</li>
-        <li class="mx-5 flex-none">Javascript</li>
-        <li class="mx-5 flex-none">React</li>
-        <li class="mx-5 flex-none"> Node Js</li>
-        <li class="mx-5 flex-none">Testing </li>
-        <li className="mx-5 flex-none">Next Js</li>
-        <li class="mx-5 flex-none">SQL </li>
-        <li className="mx-5 flex-none">Tailwind</li>  
-        <li class="mx-5 flex-none ">GitHub </li>
+    <div class=" w-full bg-stone p-5 m-5 rounded-lg shadow-lg flex items-center">
+    <div class=" w-full">
+        <h2 class="tracking-tighter text-2xl   font-bold mb-5">Tecnologias </h2>
+        <ul class=" text-xl  flex flex-wrap justify-between dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tight font-semibold  hover:text-yellow-300  border rounded">
+        <li class="my-2 p-1 flex-none ">Html </li>
+        <li class="my-2 p-1 flex-none">Css</li>
+        <li class="my-2 p-1 flex-none">Javascript</li>
+        <li class="my-2 p-1 flex-none">React</li>
+        <li class="my-2 p-1 flex-none"> Node Js</li>
+        <li class="my-2 p-1 flex-none">Testing </li>
+        <li class="my-2 p-1 flex-none">Next Js</li>
+        <li class="my-2 p-1 flex-none">SQL </li>
+        <li class="my-2 p-1 flex-none">Tailwind</li>  
+        <li class="my-2 p-1 flex-none ">GitHub </li>
       </ul>
     </div>
 </div>
