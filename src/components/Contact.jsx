@@ -4,11 +4,13 @@ import { Title } from "./Title"
 export const Contact = () => {
   return (
     <div className='flex flex-col shadow-lg  mb-10 w-full mt-9 mx-auto bg-stone '>
-    <br/>
+   {/*
+   <br/>
     <h1 className=' p-2 tracking-tighter text-2xl font-bold mb-2' >Si está buscando un desarrollador web dedicado y motivado, no dude en ponerse en contacto conmigo. 
     <br/> Estoy ansioso por poner mis habilidades y pasión en acción para ayudar a su empresa a alcanzar sus objetivos en línea.</h1>
     <br/>
     <br/>
+  */}
     <div className='flex  justify-center items-center'
     >
       <form action='https://getform.io/f/0252185f-0dc8-4d49-adfd-261e95979db0'
