@@ -5,7 +5,7 @@ import { Footer } from './components/Footer'
 import { Intro } from './components/Intro'
 import { Portafolio } from './components/Portafolio'
 import { Timeline } from './components/Timeline'
-import './index.css'
+
 import { Redes } from './components/Redes'
 
 function App() {
