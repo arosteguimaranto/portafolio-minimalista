@@ -14,9 +14,18 @@ export const Timeline = () => {
     <div className='bg-stone p-8 rounded-lg  shadow-lg flex items-center '>
       <div className=" text-mono md:w-7/12 w-2/3  ml-4">
 
-        <Title >Cursos Y Certificaciones</Title>
+       <h1 className=" tracking-tighter text-2xl font-bold mb-2"> Cursos y Certificaciones</h1>
+        <h2 className=" tracking-tighter text-2xl font-bold mb-2">2021</h2>
+       {timeline.map(item => (
+        <div key={uuidv4()} className="my-4">
+            <p className="font-bold">{item.title}</p>
+            {/*<p className="text-gray-500">{item.year}</p>*/}
+        </div>
+    ))}
+    
 
-        {timeline.map(item => (
+
+        { /*timeline.map(item => (
           <TimelineItem
             key={uuidv4()} // Agrega la clave única aquí
             year={item.year}
@@ -24,7 +33,7 @@ export const Timeline = () => {
             duration={item.duration}
             details={item.details}
           />
-        ))}
+        )) */}
 
         { /*<a
           
