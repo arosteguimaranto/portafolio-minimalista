@@ -7,7 +7,10 @@ import cvAros from '/src/ArosCV-E4.pdf'
 
 
 export const Timeline = () => {
-
+  const year24 = timeline.filter(item => item.category === '2024');
+  const year23 = timeline.filter(item => item.category === '2023');
+  const year22 = timeline.filter(item => item.category === '2022');
+  
 
 
   return (
@@ -15,14 +18,39 @@ export const Timeline = () => {
       <div className=" text-mono md:w-7/12 w-2/3  ml-4">
 
        <h1 className=" tracking-tighter text-2xl font-bold mb-2"> Cursos y Certificaciones</h1>
+       <h2 className=" tracking-tighter text-2xl font-bold mb-2">2024</h2>
+       {
+        
+        year24.map(item => (
+          <div key={uuidv4()} className="m-2">
+              <p className="font-mono"><strong>{item.title}</strong></p>
+          </div>
+
+        ))
+       }
+       <h2 className=" tracking-tighter text-2xl font-bold mb-2">2023</h2>
+       {
+        
+        year23.map(item => (
+          <div key={uuidv4()} className="m-2">
+          <p className="font-mono"><strong> {item.title} </strong></p>
+          </div>
+
+        ))
+       }
+       <h2 className=" tracking-tighter text-2xl font-bold mb-2">2022</h2>
+       {
+        
+        year22.map(item => (
+          <div key={uuidv4()} className="m-2">
+          <p className="font-mono"><strong> {item.title}</strong></p>
+          </div>
+
+        ))
+       }
         <h2 className=" tracking-tighter text-2xl font-bold mb-2">2021</h2>
-       {timeline.map(item => (
-        <div key={uuidv4()} className="my-4">
-            <p className="font-bold">{item.title}</p>
-            {/*<p className="text-gray-500">{item.year}</p>*/}
-        </div>
-    ))}
-    
+        <p className="font-mono text-xl"><strong>Primer "Hello World"</strong></p>
+      
 
 
         { /*timeline.map(item => (
