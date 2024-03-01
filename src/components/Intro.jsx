@@ -9,7 +9,7 @@ export const Intro = () => {
     <br/>
     <br/>
     <div class="justify-center w-full">
-    <ul class="text-xl  flex flex-wrap justify-center p-3 dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tight font-semibold  border rounded-lg ">
+    <ul class="text-xl  flex flex-wrap justify-center p-3 dark:bg-slate-100/80 bg-slate-950 text-white dark:text-black tracking-tight font-semibold  border rounded-lg ">
         <li class="mx-5"><a href=""> Inicio </a></li>
         <li class="mx-5"><a href=""> Proyectos</a> </li>
         <li class="mx-5"><a href=""> Contacto</a></li>

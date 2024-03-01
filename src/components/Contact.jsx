@@ -3,7 +3,7 @@ import { Title } from "./Title"
 
 export const Contact = () => {
   return (
-    <div className='flex flex-col shadow-lg  mb-10 w-full mt-9 mx-auto bg-stone '>
+    <div className='flex flex-col shadow-lg  mb-10 w-full mt-9 mx-auto dark:bg-zinc-950/30 '>
    {/*
    <br/>
     <h1 className=' p-2 tracking-tighter text-2xl font-bold mb-2' >Si está buscando un desarrollador web dedicado y motivado, no dude en ponerse en contacto conmigo. 
@@ -11,7 +11,7 @@ export const Contact = () => {
     <br/>
     <br/>
   */}
-    <div className='flex  justify-center items-center'
+    <div className='flex p-2 m-8 justify-center items-center'
     >
       <form action='https://getform.io/f/0252185f-0dc8-4d49-adfd-261e95979db0'
         method='POST'

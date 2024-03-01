@@ -12,7 +12,7 @@ function App() {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
       setTheme('light');
     } else {
       setTheme('dark');
@@ -78,7 +78,7 @@ function App() {
         {theme === 'dark' ? sun : moon}
       </button>
       <div className=' bg-white/90
-      dark:bg-stone-900 text-stone-900
+      dark:bg-zinc-950  text-stone-900
       dark:text-stone-300 min-h-screen
       font-inter '>
         <div className='max-w-5xl w-11/12 mx-auto'>
