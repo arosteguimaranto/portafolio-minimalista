@@ -16,7 +16,7 @@ export const Timeline = () => {
   return (
     <div className='bg-stone  p-8 rounded-lg  shadow-md flex items-center '>
     <br/>
-      <div className=" text-mono  dark:text-black md:w-7/12 w-2/3  ml-4">
+      <div className=" text-mono  dark:text-black md:w-7/12 ">
     <br/>
        <h1 className="   max-w-fit rounded-xl text-3xl font-bold p-1 underline underline-offset-8 dark:text-yellow-300 mb-1 "> Cursos y Certificaciones</h1>
       <br/>
