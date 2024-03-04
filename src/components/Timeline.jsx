@@ -17,8 +17,8 @@ export const Timeline = () => {
     <div className='bg-stone p-8 rounded-lg  shadow-lg flex items-center '>
       <div className=" text-mono md:w-7/12 w-2/3  ml-4">
 
-       <h1 className=" tracking-tighter text-2xl font-bold mb-2"> Cursos y Certificaciones</h1>
-       <h2 className=" tracking-tighter text-2xl font-bold mb-2">2024</h2>
+       <h1 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1"> Cursos y Certificaciones</h1>
+       <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2024</h2>
        {
         
         year24.map(item => (
@@ -28,7 +28,7 @@ export const Timeline = () => {
 
         ))
        }
-       <h2 className=" tracking-tighter text-2xl font-bold mb-2">2023</h2>
+       <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2023</h2>
        {
         
         year23.map(item => (
@@ -38,7 +38,7 @@ export const Timeline = () => {
 
         ))
        }
-       <h2 className=" tracking-tighter text-2xl font-bold mb-2">2022</h2>
+       <h2 className=" tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-">2022</h2>
        {
         
         year22.map(item => (
@@ -48,7 +48,7 @@ export const Timeline = () => {
 
         ))
        }
-        <h2 className=" tracking-tighter text-2xl font-bold mb-2">2021</h2>
+        <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2021</h2>
         <p className="font-mono text-xl"><strong>Primer "Hello World"</strong></p>
       
 
