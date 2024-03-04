@@ -7,6 +7,8 @@ import { Portafolio } from './components/Portafolio'
 import { Timeline } from './components/Timeline'
 
 import { Redes } from './components/Redes'
+import { About } from './components/About'
+import Technologies from './components/Technologies'
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -83,6 +85,8 @@ function App() {
       font-inter '>
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
+          <About/>
+          <Technologies/>
           <Portafolio /> 
           <Timeline />
           <Contact />
