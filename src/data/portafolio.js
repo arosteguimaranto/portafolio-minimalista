@@ -3,6 +3,13 @@
 export default [
     {
 
+        title: 'SpaceX Launches Made with Astro',
+        imgUrl: '../assets/Astro.png',
+        stack: [ 'Astro', 'Tailwind CSS', 'Preact'],
+        link: 'https://astro-arosteguimarantos-projects.vercel.app/',
+    },
+    {
+
         title: 'Travel App Landing Page',
         imgUrl: '../assets/travelApp.png',
         stack: [' React.js', 'Next.js 13', 'Tailwind CSS'],
