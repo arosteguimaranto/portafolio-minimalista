@@ -17,9 +17,10 @@ export const Timeline = () => {
     <div className='bg-stone  p-8 rounded-lg  shadow-md flex items-center '>
     <br/>
       <div className=" text-mono  dark:text-black md:w-7/12 w-2/3  ml-4">
-
-       <h1 className="   max-w-fit rounded-xl text-2xl font-bold p-1 mb-1  bg-zinc-300"> Cursos y Certificaciones</h1>
-       <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2024</h2>
+    <br/>
+       <h1 className="   max-w-fit rounded-xl text-3xl font-bold p-1 underline underline-offset-8 dark:text-yellow-300 mb-1 "> Cursos y Certificaciones</h1>
+      <br/>
+       <h2 className="  tracking-tighter bg-stone-950  dark:bg-slate-100/80 dark:text-black text-white max-w-fit rounded-xl text-xl font-bold p-1 mb-1">2024</h2>
        {
         
         year24.map(item => (
@@ -29,7 +30,7 @@ export const Timeline = () => {
 
         ))
        }
-       <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2023</h2>
+       <h2 className="  tracking-tighter bg-stone-950  dark:bg-slate-100/80 dark:text-black text-white max-w-fit rounded-xl text-xl font-bold p-1 mb-1">2023</h2>
        {
         
         year23.map(item => (
@@ -39,7 +40,7 @@ export const Timeline = () => {
 
         ))
        }
-       <h2 className=" tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-">2022</h2>
+       <h2 className=" tracking-tighter bg-stone-950 dark:bg-slate-100/80 dark:text-black text-white max-w-fit rounded-xl text-xl font-bold p-1 mb-">2022</h2>
        {
         
         year22.map(item => (
@@ -49,29 +50,12 @@ export const Timeline = () => {
 
         ))
        }
-        <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2021</h2>
+        <h2 className="  tracking-tighter bg-stone-950  dark:bg-slate-100/80 dark:text-black text-white max-w-fit rounded-xl text-xl font-bold p-1 mb-1">2021</h2>
         <p className="font-mono  dark:text-white text-xl"><strong>Primer "Hello World"</strong></p>
       
 
 
-        { /*timeline.map(item => (
-          <TimelineItem
-            key={uuidv4()} // Agrega la clave única aquí
-            year={item.year}
-            title={item.title}
-            duration={item.duration}
-            details={item.details}
-          />
-        )) */}
-
-        { /*<a
-          
-          className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-gray-800 drop-shadow-md hover:stroke-white'
-          href="/public/ArosCV-E4.pdf"
-          download={cvAros}
-          >
-          Descargar Curriculum
-        </a> */}
+     
       </div>
     </div>
 

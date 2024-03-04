@@ -3,7 +3,7 @@ import { Title } from "./Title"
 
 export const Contact = () => {
   return (
-    <div id="contacto" className='flex flex-col shadow-md dark:shadow-white   mb-10 w-full mt-9 mx-auto dark:bg-zinc-950/30 '>
+    <div id="contacto" className='flex flex-col shadow-md dark:shadow-inner dark:shadow-white rounded-xl mb-10 w-full mt-9 mx-auto dark:bg-zinc-950 '>
   
     <div className='flex p-2 m-8 justify-center items-center'
     >
@@ -39,8 +39,8 @@ export const Contact = () => {
         />
         <button
           type='submit'
-          className='text-center inline-block
-        px-8 py-3 w-max text-base m-8 font-medium rounded-md text-white bg-slate-950 dark:bg-slate-50 dark:text-black
+          className='text-center  inline-block
+        px-8 py-3 w-max text-base m-8 font-medium rounded-md text-white hover:bg-yellow-300  hover:text-black bg-slate-950 dark:bg-slate-50 dark:text-black
         hover:stroke-white'
         >
           Work With Me

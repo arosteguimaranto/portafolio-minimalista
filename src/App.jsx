@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
+    setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
   useEffect(() => {
@@ -73,7 +73,7 @@ function App() {
         type='button'
         onClick={handleThemeSwitch}
         className='fixed p-2 z-10 right-20 top-4 bg-slate-950 dark:bg-slate-200
-         text-lg rounded-md'
+         text-lg rounded-full'
       >
         {theme === 'dark' ? sun : moon}
       </button>
