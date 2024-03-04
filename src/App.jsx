@@ -5,14 +5,14 @@ import { Footer } from './components/Footer'
 import { Intro } from './components/Intro'
 import { Portafolio } from './components/Portafolio'
 import { Timeline } from './components/Timeline'
-import './index.css'
+
 import { Redes } from './components/Redes'
 
 function App() {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
       setTheme('light');
     } else {
       setTheme('dark');
@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
+    setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
   useEffect(() => {
@@ -73,12 +73,12 @@ function App() {
         type='button'
         onClick={handleThemeSwitch}
         className='fixed p-2 z-10 right-20 top-4 bg-slate-950 dark:bg-slate-200
-         text-lg rounded-md'
+         text-lg rounded-full'
       >
         {theme === 'dark' ? sun : moon}
       </button>
-      <div className=' bg-white
-      dark:bg-stone-900 text-stone-900
+      <div className=' bg-white/90
+      dark:bg-zinc-950  text-stone-900
       dark:text-stone-300 min-h-screen
       font-inter '>
         <div className='max-w-5xl w-11/12 mx-auto'>
