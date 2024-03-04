@@ -10,9 +10,9 @@ export const Intro = () => {
     
     <div class="justify-center w-full">
     <ul class="text-xl  flex flex-wrap justify-center p-3 dark:bg-slate-100/80 bg-slate-950 text-white dark:text-black tracking-tight font-semibold  border rounded-lg ">
-        <li class="mx-5 hover:text-yellow-200 "><a href="#inicio"> Inicio </a></li>
-        <li class="mx-5  hover:text-yellow-200"><a href="#proyectos"> Proyectos</a> </li>
-        <li class="mx-5  hover:text-yellow-200"><a href="#contacto"> Contacto</a></li>
+       {/* <li class="mx-5 hover:text-yellow-200 "><a href="#inicio"> Inicio </a></li>*/}
+        <li class="mx-5 dark:hover:text-white hover:text-yellow-300"><a href="#proyectos"> Proyectos</a> </li>
+        <li class="mx-5  dark:hover:text-white hover:text-yellow-300"><a href="#contacto"> Contacto</a></li>
         
         
     </ul>
@@ -21,7 +21,7 @@ export const Intro = () => {
 <br/>
   
 
-  <div class=" bg-stone p-8 rounded-lg  shadow-lg flex items-center">
+  <div class=" bg-stone p-8 rounded-lg  dark:shadow-white shadow-md flex items-center">
         <div class="w-1/3">
             <img  src="/assets/123.png" alt="Imagen" class="w-full h-auto rounded-full origin-top-left "/>
         </div>
@@ -32,7 +32,7 @@ export const Intro = () => {
         <br/>
     </div>
     <br/>
-    <div class=" w-full bg-stone p-5 m-5 rounded-lg shadow-lg flex items-center">
+    <div class=" w-full bg-stone p-5 m-5 rounded-lg shadow-md flex items-center">
     <div class=" w-full">
         <h2 class="tracking-tight text-3xl mb-3 text-center font-mono "><strong>Tecnologias</strong> </h2>
         <ul class=" text-xl  flex flex-wrap  justify-around dark:bg-slate-100/80 bg-stone-950 text-white dark:text-black tracking-tight font-semibold  hover:text-yellow-300 transform hover:scale-110 duration-300 border rounded-lg  ">

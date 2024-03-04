@@ -3,7 +3,7 @@ import { Title } from "./Title"
 
 export const Contact = () => {
   return (
-    <div id="contacto" className='flex flex-col shadow-lg  mb-10 w-full mt-9 mx-auto dark:bg-zinc-950/30 '>
+    <div id="contacto" className='flex flex-col shadow-md dark:shadow-white   mb-10 w-full mt-9 mx-auto dark:bg-zinc-950/30 '>
   
     <div className='flex p-2 m-8 justify-center items-center'
     >

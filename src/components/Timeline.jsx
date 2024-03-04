@@ -14,16 +14,17 @@ export const Timeline = () => {
 
 
   return (
-    <div className='bg-stone p-8 rounded-lg  shadow-lg flex items-center '>
-      <div className=" text-mono md:w-7/12 w-2/3  ml-4">
+    <div className='bg-stone  p-8 rounded-lg  shadow-md flex items-center '>
+    <br/>
+      <div className=" text-mono  dark:text-black md:w-7/12 w-2/3  ml-4">
 
-       <h1 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1"> Cursos y Certificaciones</h1>
+       <h1 className="   max-w-fit rounded-xl text-2xl font-bold p-1 mb-1  bg-zinc-300"> Cursos y Certificaciones</h1>
        <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2024</h2>
        {
         
         year24.map(item => (
           <div key={uuidv4()} className="m-2">
-              <p className="font-mono"><strong>{item.title}</strong></p>
+              <p className="font-mono  dark:text-white"><strong>{item.title}</strong></p>
           </div>
 
         ))
@@ -33,7 +34,7 @@ export const Timeline = () => {
         
         year23.map(item => (
           <div key={uuidv4()} className="m-2">
-          <p className="font-mono"><strong> {item.title} </strong></p>
+          <p className="font-mono  dark:text-white "><strong> {item.title} </strong></p>
           </div>
 
         ))
@@ -43,13 +44,13 @@ export const Timeline = () => {
         
         year22.map(item => (
           <div key={uuidv4()} className="m-2">
-          <p className="font-mono"><strong> {item.title}</strong></p>
+          <p className="font-mono  dark:text-white"><strong> {item.title}</strong></p>
           </div>
 
         ))
        }
         <h2 className="  tracking-tighter bg-zinc-300 max-w-fit rounded-xl text-2xl font-bold p-1 mb-1">2021</h2>
-        <p className="font-mono text-xl"><strong>Primer "Hello World"</strong></p>
+        <p className="font-mono  dark:text-white text-xl"><strong>Primer "Hello World"</strong></p>
       
 
 

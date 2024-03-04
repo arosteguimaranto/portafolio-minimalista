@@ -40,7 +40,7 @@ export const Portafolio = () => {
   return (
     <>
 
-      <div id="proyectos" className="flex-col md:flex-row  justify-center bg-stone p-8 rounded-lg  shadow-lg flex items-center">
+      <div id="proyectos" className="flex-col md:flex-row  dark:shadow-white   justify-center bg-stone p-8 rounded-lg shadow-md flex items-center">
 
 
         <Slider {...settings} className="w-full  dark:border-stone-900 border-white">
