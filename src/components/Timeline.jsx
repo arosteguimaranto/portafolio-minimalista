@@ -1,8 +1,6 @@
 import timeline from "../data/timeline"
-import { TimelineItem } from "./TimelineItem"
+
 import { v4 as uuidv4 } from 'uuid';
-import { Title } from "./Title";
-import cvAros from '/src/ArosCV-E4.pdf'
 
 
 
@@ -25,7 +23,7 @@ export const Timeline = () => {
         
         year24.map(item => (
           <div key={uuidv4()} className="m-2">
-              <p className="font-mono  dark:text-white"><strong>{item.title}</strong></p>
+              <p className=" font-bold   dark:text-white">{item.title}</p>
           </div>
 
         ))
@@ -35,7 +33,7 @@ export const Timeline = () => {
         
         year23.map(item => (
           <div key={uuidv4()} className="m-2">
-          <p className="font-mono  dark:text-white "><strong> {item.title} </strong></p>
+          <p className=" font-bold   dark:text-white "> {item.title} </p>
           </div>
 
         ))
@@ -45,13 +43,13 @@ export const Timeline = () => {
         
         year22.map(item => (
           <div key={uuidv4()} className="m-2">
-          <p className="font-mono  dark:text-white"><strong> {item.title}</strong></p>
+          <p className=" font-bold   dark:text-white"> {item.title}</p>
           </div>
 
         ))
        }
         <h2 className="  tracking-tighter bg-stone-950  dark:bg-slate-100/80 dark:text-black text-white max-w-fit rounded-xl text-xl font-bold p-1 mb-1">2021</h2>
-        <p className="font-mono  dark:text-white text-xl"><strong>Primer "Hello World"</strong></p>
+        <p className=" font-bold   dark:text-white text-xl">Primer "Hello World"</p>
       
 
 
