@@ -10,6 +10,13 @@ export default [
     },
     {
 
+        title: 'Portafolio en Hatch',
+        imgUrl: '../assets/portfolioHatch.png',
+        stack: ['Hatch','low-code/No code' ],
+        link: 'https://brendamaranto.hatch.one/portfolio',
+    },
+    {
+
         title: 'Travel App Landing Page',
         imgUrl: '../assets/travelApp.png',
         stack: [' React.js', 'Next.js 13', 'Tailwind CSS'],
