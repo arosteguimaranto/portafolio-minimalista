@@ -15,9 +15,9 @@ function App() {
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-      setTheme('light');
-    } else {
       setTheme('dark');
+    } else {
+      setTheme('light');
     }
   }, []);
 
@@ -88,7 +88,6 @@ function App() {
           <About/>
           <Technologies/>
           <Portafolio /> 
-          <Timeline />
           <Contact />
           <Redes/>
           <Footer />
